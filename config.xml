@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.agridoctor.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>VTOP</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <access origin="http://vtop.vit.ac.in*"/>
+    <access origin="http://www.vtop.vit.ac.in*"/>
+    <access origin="https://www.vtop.vit.ac.in*"/>
+    <access origin="https://vtop.vit.ac.in*"/>
+
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+
+    <platform name="android">
+             <allow-intent href="market:*" />
+
+             <icon src="res/image/ldpi.png" density="ldpi" />
+             <icon src="res/image/mdpi.png" density="mdpi" />
+             <icon src="res/image/hdpi.png" density="hdpi" />
+             <icon src="res/image/xhdpi.png" density="xhdpi" />
+             <icon src="res/image/xxhdpi.png" density="xxhdpi" />
+             <icon src="res/image/xxxhdpi.png" density="xxxhdpi" />
+    </platform>
+
+
+
+
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
